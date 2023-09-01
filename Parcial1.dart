@@ -8,6 +8,6 @@ void main() {
   final Producto Produto3 = Producto('Chocorramo', 2500, DateTime(2023, 10, 10));
 
   final Venta venta = Venta();
-  print('El total a pagar es: '${venta.totalVenta()});
+  print('El total a pagar es: ${venta.totalVenta()}');
  
 }
